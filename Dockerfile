@@ -1,5 +1,5 @@
-FROM alpine:3.10
-LABEL maintainer="Yannick Zwicker <yzwicker@ins.hsr.ch>"
+FROM alpine:3.16.1
+LABEL maintainer="INS OST"
 
 RUN apk update \
     && apk add libvirt-client \
